@@ -1,0 +1,25 @@
+
+
+table {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 70px);
+    background-color: #fff;
+    top: 70px;
+}
+
+tr > td {
+    font-size: 5em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    table {
+        height: calc(100% - 40px);
+        top: 40px;
+    }
+    tr > td {
+        font-size: 2em;
+    }
+}

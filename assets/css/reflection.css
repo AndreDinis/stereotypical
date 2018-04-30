@@ -1,0 +1,31 @@
+.container p1 {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.f {
+    font-weight: 300;
+    text-align:center;
+    font-size: 30px;    
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        margin: 150px 5% 100px 5%;
+    }
+    img {
+        float: unset;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+}
